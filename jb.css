@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* default light mode */
+}
+
+.header, .menu, button, p {
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .header, .dark-mode .menu, {
+    color: white; /* text color in dark mode */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%; /* Membuat gambar berbentuk lingkaran */
+    margin: 4px 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic.zoomed {
+    transform: scale(3); /* Mengatur skala perbesaran */
+    z-index: 1000;
+    position: relative; /* pengatur posisi */
+}
+
+.account-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    width: 300px;
+    text-align: center;
+    max-width: 200%;
+    height: auto;
+}
+
+.menu {
+    background: white;
+    background-size: cover; 
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.account-item img {
+    width: 200%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+/* Styling untuk label "Sold Out" */
+.soldout {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Tombol pesan order */
+.order-button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.order-button:hover {
+    background-color: #218838;
+}
+
+/* Tombol chat Admin */
+.chat-button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.chat-button:hover {
+    background-color: #138496;
+}

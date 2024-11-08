@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jb.css">
+    <title>Web Jual Akun</title>
+</head>
+<body>
+    <button id="toggleMode">☀</button>
+    <header>
+        <h1>Selamat Datang di Web JB</h1>
+        <a href="#" id="profile-link">
+            <img src="pp_profil.png" alt="Profil" class="profile-pic" id="profile-pic">
+        </a>
+        <h1>Latex76</h1>
+    </header>
+    <main>
+        <section class="menu">
+            <h2>Akun Game</h2>
+            <button onclick="showAccounts('ff')">Free Fire</button>
+            <button onclick="showAccounts('ml')">Mobile Legends</button>
+            <button onclick="showAccounts('coc')">Clash of Clans</button>
+
+            <h2>Akun Media Sosial</h2>
+            <button onclick="showAccounts('ig')">Instagram</button>
+            <button onclick="showAccounts('yt')">YouTube</button>
+            <button onclick="showAccounts('tt')">TikTok</button>
+
+            <h2>Informasi dan Tata Cara</h2>
+            <button onclick="showInstructions()">Tata Cara Pembelian</button>
+        </section>
+        <div id="display"></div>
+    </main>
+    <script src="jb.js"></script>
+</body>
+</html>
