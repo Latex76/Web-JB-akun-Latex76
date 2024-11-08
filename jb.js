@@ -1,33 +1,45 @@
 const accounts = {
     ff: [{
-        name: 'Akun SG Meteor + Polosan  (Login:FB)',
+        name: 'Akun SG Meteor + Polosan (Login:FB)',
         img: 'akun01.jpg',
-        status: 'soldout'  // status bisa 'soldout' atau 'available'
+        status: 'soldout',
+        price: 'Rp 340.000',
+        loginMethod: 'FB'
     },
     {
-        name: '(Akun no 2) Vauld 268 + Bundle Venom  (Login:FB)',
+        name: '(Akun no 2) Vauld 268 + Bundle Venom (Login:FB)',
         img: 'Akun02.jpg',
-        status: 'available'
+        status: 'available',
+        price: 'Rp 125.000 (Nego)',
+        loginMethod: 'FB'
     }],
     ml: [{
         name: 'Akun Kolektor + Emblem MAX (Login:FB)',
         img: 'Akun_ML01.jpg',
-        status: 'soldout'
+        status: 'soldout',
+        price: 'Rp 1,3JT (Nego)',
+        loginMethod: 'FB'
     },
     {
         name: 'Akun Epic + 5 Skin',
         img: 'foto slot kosong.jpg',
-        status: 'available'
+        status: 'available',
+        price: 'Rp ??',
+        loginMethod: 'FB'
     }],
     coc: [{
         name: 'Akun TH 12 + Stock Pribadi (Login:Google)',
         img: 'Akun_Coc01.jpg',
-        status: 'soldout'
+        status: 'soldout',
+        price: 'Rp 110.000 (Nego)',
+        loginMethod: 'Google'
     },
     {
-        name: 'Akun TH 10 + 20 Skin',
+        name: 'Akun TH 10 + 3 Skin',
         img: 'foto slot kosong.jpg',
-        status: 'available'
+        status: 'available',
+        price: 'Rp ??',
+        loginMethod: 'Google'
     }]
 };
 
@@ -59,6 +71,8 @@ function showAccounts(game) {
         accountItem.innerHTML = `
             <img src="${account.img}" alt="${account.name}">
             <p>${account.name}</p>
+            <p class="price">${account.price}</p>
+            <p class="login-method">Login via: ${account.loginMethod}</p>
             ${statusLabel}
             ${orderButton}
             ${chatButton}
@@ -75,12 +89,12 @@ function showInstructions() {
     display.innerHTML = `Tata cara pembelian:\n
     1. Pilih akun yang diinginkan.\n
     2. Ikuti petunjuk pada layar.\n
-    3.jangan lupa ss akun yang tersedia yang diinginkan.\n
-    4. klik "pesan akun" pada akun yang diinginkan.\n
-    5..jangan lupa tanyakan dulu spesifikasi, metode pembayaran atau keaslian akun\n
-    6.jangan malu atau ragu bertanya karna nanti bisa tersesat di jalan.\n
-    7. klik tombol "chat admin" untuk menghubungi mc nya\n
-    8. Selesaikan transaksi.`;
+    3. Jangan lupa screenshot akun yang tersedia yang diinginkan.\n
+    4. Klik "Pesan Akun" pada akun yang diinginkan.\n
+    5. Jangan lupa tanyakan dulu spesifikasi, metode pembayaran atau keaslian akun.\n
+    6. Jangan malu atau ragu bertanya karena nanti bisa tersesat di jalan.\n
+    7. Klik tombol "Chat Admin" untuk menghubungi MC-nya.\n
+    8. Selesaikan transaksi dengan baik.`;
 }
 
 const profilePic = document.getElementById('profile-pic');
