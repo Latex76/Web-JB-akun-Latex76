@@ -1,20 +1,20 @@
 const accounts = {
     ff: [{
-        name: 'Akun SG Meteor + Polosan (Login:FB)',
-        img: 'akun01.jpg',
-        status: 'soldout',
-        price: 'Rp 340.000',
+        name: '(Akun no 1) Akun Vauld 510',
+        img: 'Akun_FF01.jpg',
+        status: 'available',
+        price: 'Rp 300.000',
         loginMethod: 'FB'
     },
     {
-        name: '(Akun no 2) Vauld 268 + Bundle Venom (Login:FB)',
+        name: '(Akun no 2) Vauld 268 + Bundle Venom',
         img: 'Akun02.jpg',
         status: 'available',
         price: 'Rp 125.000 (Nego)',
         loginMethod: 'FB'
     }],
     ml: [{
-        name: 'Akun Kolektor + Emblem MAX (Login:FB)',
+        name: 'Akun Kolektor + Emblem MAX',
         img: 'Akun_ML01.jpg',
         status: 'soldout',
         price: 'Rp 1,3JT (Nego)',
@@ -28,7 +28,7 @@ const accounts = {
         loginMethod: 'FB'
     }],
     coc: [{
-        name: 'Akun TH 12 + Stock Pribadi (Login:Google)',
+        name: 'Akun TH 12 + Stock Pribadi',
         img: 'Akun_Coc01.jpg',
         status: 'soldout',
         price: 'Rp 110.000 (Nego)',
