@@ -12,6 +12,14 @@ const accounts = {
         status: 'available',
         price: 'Rp 125.000 (Nego)',
         loginMethod: 'FB'
+    }, 
+    {
+        name: '(Akun no 3) Vauld ??+ ??',
+        img: 'maaf stock Habis.jpg',
+        status: 'available',
+        price: 'Rp ?? (Nego)',
+        loginMethod: 'FB'
+            
     }],
     ml: [{
         name: 'Akun Kolektor + Emblem MAX',
@@ -22,7 +30,7 @@ const accounts = {
     },
     {
         name: 'Akun Epic + 5 Skin',
-        img: 'foto slot kosong.jpg',
+        img: 'maaf stock Habis.jpg',
         status: 'available',
         price: 'Rp ??',
         loginMethod: 'FB'
@@ -36,7 +44,7 @@ const accounts = {
     },
     {
         name: 'Akun TH 10 + 3 Skin',
-        img: 'foto slot kosong.jpg',
+        img: 'maaf stock Habis.jpg',
         status: 'available',
         price: 'Rp ??',
         loginMethod: 'Google'
