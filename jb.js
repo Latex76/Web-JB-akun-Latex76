@@ -3,7 +3,7 @@ const accounts = {
         name: '(Akun no 1) Akun Vauld 510',
         img: 'Akun_FF01.jpg',
         status: 'available',
-        price: 'Rp 300.000',
+        price: 'Rp 300.000 (Nego)',
         loginMethod: 'FB'
     },
     {
