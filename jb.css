@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4; /* default light mode */
+    background-color: #f4f4f4;
+    /* default light mode */
 }
 
 .header, .menu, button {
@@ -29,16 +30,19 @@ header {
 .profile-pic {
     width: 60px;
     height: 60px;
-    border-radius: 100%; /* Membuat gambar berbentuk lingkaran */
+    border-radius: 100%;
+    /* Membuat gambar berbentuk lingkaran */
     margin: 4px 0;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
 .profile-pic.zoomed {
-    transform: scale(3); /* Mengatur skala perbesaran */
+    transform: scale(3);
+    /* Mengatur skala perbesaran */
     z-index: 1000;
-    position: relative; /* pengatur posisi */
+    position: relative;
+    /* pengatur posisi */
 }
 
 .account-list {
@@ -147,7 +151,8 @@ button:hover {
 
 /* Modal styles */
 .modal {
-    display: none; /* Modal dimulai dengan tidak terlihat */
+    display: none;
+    /* Modal dimulai dengan tidak terlihat */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -155,7 +160,8 @@ button:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4); /* Latar belakang transparan */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Latar belakang transparan */
 }
 
 .modal-content {
