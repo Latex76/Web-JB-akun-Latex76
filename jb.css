@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f4; /* default light mode */
 }
 
-.header, .menu, button, p {
+.header, .menu, {
     color: black;
 }
 
@@ -14,8 +14,8 @@ body {
     color: white;
 }
 
-.dark-mode .header, .dark-mode .menu, {
-    color: white; /* text color in dark mode */
+.dark-mode .header {
+    color: white;
 }
 
 header {
@@ -60,7 +60,7 @@ header {
 
 .menu {
     background: white;
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     padding: 20px;
     border-radius: 5px;
@@ -143,4 +143,69 @@ button:hover {
     font-size: 14px;
     color: #555;
     margin-top: 5px;
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Modal dimulai dengan tidak terlihat */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Latar belakang transparan */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admin-btn {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.admin-btn:hover {
+    background-color: #138496;
+}
+
+.order-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.order-button:hover {
+    background-color: #218838;
     }
