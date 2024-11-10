@@ -128,7 +128,7 @@ function openChatModal(index, game) {
         <p>Anda tertarik untuk membeli akun: <strong>${selectedAccount.name}</strong></p>
         <p>Pilih Admin untuk menghubungi:</p>
         <button class="admin-btn" onclick="chatWithAdmin('admin1', '${selectedAccount.name}')">Chat dengan Admin 1 (Taufik)</button>
-        <button class="admin-btn" onclick="chatWithAdmin('admin2', '${selectedAccount.name}')">Chat dengan Admin 2 (butuh admin ke 2)</button>
+        <button class="admin-btn" onclick="chatWithAdmin('admin2', '${selectedAccount.name}')">Chat dengan Admin 2 (Comingsoon...!!!)</button>
         <button class="order-button" onclick="closeModal()">Tutup</button>
     `;
 }
