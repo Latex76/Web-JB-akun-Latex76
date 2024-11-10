@@ -121,13 +121,13 @@ button:hover {
 }
 
 .order-button:hover {
-    background-color: #218838;
+    background-color: #138496;
 }
 
 /* Tombol chat Admin */
 .chat-button {
     margin-top: 10px;
-    padding: 8px 15px;
+    padding: 9px 15px;
     background-color: #17a2b8;
     color: white;
     border-radius: 5px;
@@ -205,17 +205,3 @@ button:hover {
 .admin-btn:hover {
     background-color: #138496;
 }
-
-.order-button {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 100%;
-}
-
-.order-button:hover {
-    background-color: #218838;
-    }
