@@ -6,7 +6,7 @@ body {
     /* default light mode */
 }
 
-.header, .menu, button {
+.header, .menu, button, p {
     color: black;
 }
 
