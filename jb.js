@@ -61,9 +61,9 @@ function showAccounts(game) {
     let display = document.getElementById('display');
     display.innerHTML = ''; // Menghapus konten lama
 
-    // Jika game adalah Instagram, YouTube, atau TikTok, tampilkan pesan Coming Soon
+    // Jika aplikasi adalah Instagram, YouTube, atau TikTok, tampilkan pesan Coming Soon
     if (game === 'ig' || game === 'yt' || game === 'tt') {
-        display.innerHTML = `<h2>Coming Soon...!!!</h2><p>Akun untuk ${game.toUpperCase()} akan segera tersedia. Stay tuned!</p>`;
+        display.innerHTML = `<h2>Coming Soon...!!!</h2><h2>~Akun untuk ${game.toUpperCase()} akan segera tersedia. Stay tuned!~</h2>`;
         return;
     }
 
