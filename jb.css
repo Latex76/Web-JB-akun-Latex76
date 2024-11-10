@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+.dark-mode .account-item h3 {
+    color: Black;
+}
+
 .dark-mode .header {
     color: white;
 }
