@@ -10,7 +10,7 @@ const accounts = {
         {
             name: '(Akun no 2) Vauld 268 + Bundle Venom',
             img: 'Akun02.jpg',
-            status: 'available',
+            status: 'soldout',
             price: 'Rp 125.000 (Nego)',
             loginMethod: 'FB'
         },
@@ -84,7 +84,7 @@ function showAccounts(game) {
             // Tombol untuk pesan akun
             orderButton = `<a href="https://wa.me/+62 838-6211-6142?text=Saya%20mau%20beli%20akun%20${game}%20no%20${index + 1}" class="order-button">Pesan Akun</a>`;
             // Tombol untuk chat admin
-            chatButton = `<button class="chat-button" onclick="openChatModal(${index}, '${game}')">Chat Admin</button>`;
+            chatButton = `<button class="chat-button" onclick="openChatModal(${index}, '${game}')">Chat Admin/MC</button>`;
         }
 
         accountItem.innerHTML = `
