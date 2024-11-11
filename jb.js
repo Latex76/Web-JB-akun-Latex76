@@ -15,11 +15,18 @@ const accounts = {
             loginMethod: 'FB'
         },
         {
-            name: '(Akun no 3) Vauld ??+ ??',
+            name: '(Akun no 3) Yin Yang Hitam + SG Terompet',
+            img: 'Akun-FF03.jpg',
+            status: 'available',
+            price: 'Rp 55.000(Nego)',
+            loginMethod: 'Google'
+        }, 
+        {
+            name: '(Akun no 4) Vauld?? + ??',
             img: 'maaf stock Habis.jpg',
             status: 'available',
-            price: 'Rp ?? (Nego)',
-            loginMethod: 'FB'
+            price: 'Rp ??(Nego)',
+            loginMethod: 'Google'
         }
     ],
     ml: [
