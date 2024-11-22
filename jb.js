@@ -17,16 +17,22 @@ const accounts = {
         {
             name: '(Akun no 3) Yin Yang Hitam + SG Terompet',
             img: 'Akun-FF03.jpg',
-            status: 'available',
+            status: 'soldout',
             price: 'Rp 55.000(Nego)',
             loginMethod: 'Google'
         }, 
         {
-            name: '(Akun no 4) Vauld?? + ??',
-            img: 'maaf stock Habis.jpg',
+            name: '(Akun no 4) Bundle Dynamic duo + katana naga elang',
+            img: 'akun_mas_fix.jpg',
             status: 'available',
-            price: 'Rp ??(Nego)',
-            loginMethod: 'Google'
+            price: 'Rp 100.000(Nego)',
+            loginMethod: 'FB'
+        }, 
+        {
+            name: '(Akun no 5) ?? + ??', 
+            img: 'maaf stock Habis.jpg', 
+            price: 'Rp?? ', 
+            loginMethod: 'FB'
         }
     ],
     ml: [
